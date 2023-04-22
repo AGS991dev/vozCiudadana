@@ -5,26 +5,7 @@
         <div>
         
             
-  <!-- Cabecera -->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Manifestaciones populares</a></li>
-        <li><a href="#">Nueva manifestación</a></li>
-        <li>
-          <select id="selector-idioma">
-            <option value="es">Español</option>
-            <option value="en">English</option>
-            <option value="zh">中文</option>
-          </select>
-        </li>
-      </ul>
-    </nav>
-    <!-- <h1>Comunicación Pueblo - Gobierno</h1> -->
-  </header>
-
-  <!-- Buscador -->
+    <!-- Buscador -->
   <div class="buscador">
     <input type="text" placeholder="Buscar manifestaciones...">
     <button>Buscar</button>

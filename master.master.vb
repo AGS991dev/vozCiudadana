@@ -64,12 +64,12 @@ Partial Class master
 
         'SI EL USUARIO NO ESTA LOGUEADO, SE REDIRECCIONA
         If IsNothing(Session("usuario_actual")) Then
-            Response.Redirect("login.aspx")
+            'Response.Redirect("login.aspx") 'descomentar esta linea para q funcione las pag habilitadas
             Exit Sub
         End If
         'SI ESTÁ LOGUEADO, VERIFICAMOS QUE TIENE ACCESO A LA PÁGINA
         If Not cls_security.PAGINAS_HABILITADAS.Contains(page_name) Then
-            Response.Redirect("login.aspx")
+            'Response.Redirect("login.aspx") 'descomentar esta linea para q funcione las pag habilitadas
             Exit Sub
         End If
         'If cls_security.usuario_actual.es_empleado Then

@@ -172,17 +172,8 @@
             
 
     <% If page_name <> "login_aspx" And page_name <> "inicio_aspx" Then%>
-    <nav id="nav_pages">
-    <div class="nav-wrapper nav_wrapper_css">
-
-      <div class="col s12">
-            <asp:ContentPlaceHolder ID="contenido_nav" runat="server" />
-      </div>
-
-    </div>
-  </nav>
+    
     <%End If%>
-
 
 
     <div class="main animated fadeIn" style="margin-bottom:100px;">
