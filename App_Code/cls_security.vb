@@ -34,6 +34,7 @@ Public Class cls_security
             paginas.Add("Frm_parametros.aspx".ToLower)
             paginas.Add("access_recovery.aspx".ToLower)
             paginas.Add("store.aspx".ToLower)
+            paginas.Add("home.aspx".ToLower)
 
             Return paginas
         End Get
@@ -62,6 +63,7 @@ Public Class cls_security
             paginas.Add("c_pedido_lista.aspx".ToLower)
             paginas.Add("c_movimientos.aspx".ToLower)
             paginas.Add("store.aspx".ToLower)
+            paginas.Add("home.aspx".ToLower)
             Return paginas
         End Get
 
@@ -73,7 +75,7 @@ Public Class cls_security
             paginas.Add("login.aspx".ToLower)
             paginas.Add("empleado_index.aspx".ToLower)
             paginas.Add("store.aspx".ToLower)
-
+            paginas.Add("home.aspx".ToLower)
             Return paginas
         End Get
 

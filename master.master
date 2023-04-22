@@ -43,9 +43,10 @@
     <script src="static/js/sweetalert2.js"></script>
      <script type="text/javascript" src="static/js/mstepper.min.js"></script>
 
+      <link rel ="stylesheet" href="static/css/vozCMain.css" />
       <link rel="stylesheet" href="static/css/main.css" />
       <link rel="stylesheet" href="static/css/theAppGuruz.css" />
-      <link rel = "stylesheet" href="static/css/main_FA.css" />
+      <link rel ="stylesheet" href="static/css/main_FA.css" />
 
 
     <asp:ContentPlaceHolder ID="contenido_css" runat="server">
